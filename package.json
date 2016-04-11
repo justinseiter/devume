@@ -4,12 +4,27 @@
   "description": "A resume for developers to fork, customize, and deploy.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "json",
-    "resume"
+    "resume",
+    "webpack",
+    "handlebars"
   ],
   "author": "Justin Seiter",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "handlebars": "^4.0.5",
+    "handlebars-loader": "^1.2.0",
+    "html-webpack-plugin": "^2.15.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.2",
+    "stylus-loader": "^2.0.0",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1"
+  }
 }

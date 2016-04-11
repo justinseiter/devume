@@ -1,0 +1,12 @@
+# OS X
+.DS_Store
+
+# Distribution
+/dist
+
+# npm
+/node_modules
+
+# Logs
+*.log
+npm-debug.log*

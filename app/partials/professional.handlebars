@@ -1,0 +1,9 @@
+<section>
+  <div class="row">
+    <h2 class="section-head">Professional Experience</h2>
+      {{#each work}}
+        <h6 class="sub-header"><strong>{{this.company}}</strong>, {{this.position}}</h6>
+        <p>{{this.summary}}</p>
+      {{/each}}
+  </div>
+</section>

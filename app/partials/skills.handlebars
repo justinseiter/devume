@@ -1,0 +1,19 @@
+<section>
+  <div class="row">
+    <h2 class="section-head">Technical Skills</h2>
+    <table class="u-full-width">
+      <tbody>
+        {{#each skills}}
+        <tr>
+          <td>{{this.level}}</td>
+          <td class="u-text-right">
+          {{#each this.keywords}}
+            {{this}}
+          {{/each}}
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</section>

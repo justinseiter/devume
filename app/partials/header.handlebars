@@ -1,0 +1,20 @@
+ <section class="header">
+  <div class="row">
+    <h1>{{basics.name}}</h1>
+  </div>
+  <div class="row">
+    <div class="eight columns">
+      {{basics.phone}}
+      <br />
+      {{basics.location.city}}, {{basics.location.region}}
+    </div>
+    <div class="four columns">
+      <div class="u-text-right">
+        {{#each basics.profiles}}
+          <a href="">{{this.network}}</a>
+          <br />
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>
