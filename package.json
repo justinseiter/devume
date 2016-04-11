@@ -1,0 +1,15 @@
+{
+  "name": "devume",
+  "version": "1.0.0",
+  "description": "A resume for developers to fork, customize, and deploy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "resume"
+  ],
+  "author": "Justin Seiter",
+  "license": "MIT"
+}
