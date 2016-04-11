@@ -4,15 +4,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic");
 
 // Variables
-bg-purple = #f5eff8
-bg-blue   = #ebf5fc
-bg-turq   = #ecfcf9
-bg-yellow = #fdf6db
-bg-orange = #fdf2df
-bg-pink   = #fef1f6
-bg-white  = #fff
+bg-purple    = #f5eff8
+bg-blue      = #ebf5fc
+bg-turqouise = #ecfcf9
+bg-yellow    = #fdf6db
+bg-orange    = #fdf2df
+bg-pink      = #fef1f6
+bg-white     = #fff
+bg-off-white = #f8f8f8
 
-bg = bg-turq
+bg = bg-white
 
 body
   background bg
@@ -41,11 +42,12 @@ section
   // padding-bottom 2rem
   
 .section-head
-  font-size 1.8rem
+  font-size 1.6rem
   line-height 1
   font-weight 400
   font-family "Montserrat"
   text-transform uppercase
+  letter-spacing 0
 
 .sub-header
   margin-bottom 1rem
@@ -70,7 +72,20 @@ table
   &.small
     font-size 1.3rem
   td
-    border-color: #666
+    border-bottom: 1px solid rgba(0,0,0, 0.3)
+
+.picture-wrap
+  text-align center
+  margin 5rem auto 2rem
+  color #777
+  font-style italic
+  
+.picture
+  max-width 140px
+  border-radius 100%
+  margin auto
+  display block
+  border 1px solid #999
 
 // Helpers
 .u-text-right
