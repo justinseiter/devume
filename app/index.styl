@@ -1,7 +1,7 @@
 @import "css/normalize.css"
 @import "css/skeleton.css"
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic");
 
 // Variables
 bg-purple = #f5eff8
@@ -12,7 +12,7 @@ bg-orange = #fdf2df
 bg-pink   = #fef1f6
 bg-white  = #fff
 
-bg = bg-blue
+bg = bg-turq
 
 body
   background bg
@@ -27,12 +27,12 @@ a
   margin-top 3rem
   
 .container
-  max-width 540px
+  max-width 600px
 
 section
-  margin-bottom 5rem
-  p
-    font-size 1.3rem
+  margin-bottom 6rem
+  .summary
+    // font-size 1.3rem
     &:last-child
       margin 0
 
@@ -41,23 +41,34 @@ section
   // padding-bottom 2rem
   
 .section-head
-  font-size 1.5rem
+  font-size 1.8rem
   line-height 1
   font-weight 400
   font-family "Montserrat"
   text-transform uppercase
 
 .sub-header
-  margin-bottom 0.5rem
+  margin-bottom 1rem
+  position relative
+  &:before
+    position absolute
+    left -1.5rem
+    content '\2022'
+  span
+    font-style italic
+    opacity 0.6
 
 h1
   font-weight 300
+  font-size 3.8rem
   font-family "Montserrat"
   margin-bottom 0.3rem
 
 // Tables
 table
   margin -15px 0 0 0
+  &.small
+    font-size 1.3rem
   td
     border-color: #666
 

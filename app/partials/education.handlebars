@@ -1,5 +1,17 @@
 <section>
   <div class="row">
     <h2 class="section-head">Education</h2>
+    <table class="u-full-width small">
+      <tbody>
+        {{#each education}}
+        <tr>
+          <td>{{this.institution}}</td>
+          <td>{{this.studyType}} {{this.area}}</td>
+          <td class="u-text-right">{{#if this.startDate}}{{this.startDate}}-{{/if}}{{this.endDate}}</td>
+          <td class="u-text-right">{{this.location}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
   </div>
 </section>
