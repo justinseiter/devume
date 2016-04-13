@@ -14,11 +14,14 @@ NodeJS 4.x
 Run `npm start`
 
 ##Configuration
-**Resume** - The `resume.json` file is loosely based on the schema from [jsonresume.org](http://jsonresume.org).  
 
-**Layout** - Each section of the resume is built out in the `partials` directory. The `template.handlebars` file determines which partials are loaded as well as the order they are loaded into the view.
+ - **Resume** - The `resume.json` file is loosely based on the schema from [jsonresume.org](http://jsonresume.org).  
+ - **Layout** - Each section of the resume is built out in the `partials` directory. The `template.handlebars` file determines which partials are loaded as well as the order they are loaded into the view.
+ - **Styles** - All styling should be performed in the [Stylus](http://stylus-lang.com/) file `index.styl`. [Normalize.css](https://necolas.github.io/normalize.css/) and [skeleton.css](http://getskeleton.com) are imported for base browser reset and some light default stylings respectively. Skeleton is primarily utilized for typography and layout.
 
-##Deployment With Surge.sh
+##Deployment With [Surge.sh](http://surge.sh)
+
+> Simple, single-command web publishing. Publish HTML, CSS, and JS for free, without leaving the command line.
 
  1. Install surge globally: `npm install --global surge`
  2. To prepare your build execute: `npm run production` This will create a `dist` directory.
