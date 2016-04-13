@@ -1,13 +1,16 @@
 #Devume
-Devume is the hackable JSON resume. Fork it, tweak it, deploy it!
+
+> Devume is the hackable JSON resume. Fork it, tweak it, deploy it!
+
+Devume ships with [Webpack](https://webpack.github.io/) for code bundling, [Handlebars](http://handlebarsjs.com/) for templating, and a JSON file you can update with your own resume data. Together they provide a very lightweight system for quickly creating a resume you can *host at your own domain.*
 
 ##Dependencies
 NodeJS 4.x
 
 ##Installation
  1. Fork this repo.
- 2. Clone your copy of the repo.
- 3. CD to the root directory.
+ 2. Clone your copy of the repo: `git clone ...`
+ 3. CD into the project folder: `cd devume`
  4. Run `npm install`
 
 ##Local Development
