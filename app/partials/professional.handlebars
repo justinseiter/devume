@@ -2,11 +2,18 @@
   <div class="row">
     <h2 class="section-head">Professional Experience</h2>
       {{#each work}}
-        <h6 class="sub-header">
-          <strong>{{this.company}}</strong>, <span>{{this.position}}</span>
-          <span class="u-pull-right">{{this.startDate}}-{{this.endDate}}</span>
+        <h6 class="section-sub-head">
+          <strong>{{this.company}}</strong>, <span class="position">{{this.position}}</span>
+          <span class="dates">{{this.startDate}}-{{this.endDate}}</span>
         </h6>
         <p class="summary">{{this.summary}}</p>
+        {{#if this.highlights}}
+          <ul class="highlights">
+            {{#each this.highlights}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        {{/if}}
       {{/each}}
   </div>
 </section>

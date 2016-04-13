@@ -1,5 +1,11 @@
 <section>
   <div class="row">
     <h2 class="section-head">Personal Projects</h2>
+      {{#each projects}}
+        <h6 class="section-sub-head">
+          <a target="_blank" href="{{this.url}}" title="{{this.name}}"><strong>{{this.name}}</strong></a>
+        </h6>
+        <p class="summary">{{this.summary}}</p>
+      {{/each}}
   </div>
 </section>

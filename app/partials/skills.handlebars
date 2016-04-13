@@ -7,9 +7,11 @@
         <tr>
           <td>{{this.level}}</td>
           <td class="u-text-right">
-          {{#each this.keywords}}
-            {{this}}
-          {{/each}}
+            <div class="comma-list">
+            {{#each this.keywords}}
+              <span>{{this}}</span>
+            {{/each}}
+            </div>
           </td>
         </tr>
         {{/each}}

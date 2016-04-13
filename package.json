@@ -11,6 +11,7 @@
     "json",
     "resume",
     "webpack",
+    "stylus",
     "handlebars"
   ],
   "author": "Justin Seiter",

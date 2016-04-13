@@ -13,19 +13,21 @@ bg-pink      = #fef1f6
 bg-white     = #fff
 bg-off-white = #f8f8f8
 
-bg = bg-white
+bg = bg-blue
 
 body
   background bg
-  color #444
+  color #555
   font-weight 400
-  font-family "Open Sans"
+  font-family "Open Sans", Helvetica, Arial, sans-serif
 
 a
-  color #444
+  color #555
+  text-decoration none
+  border-bottom 1px solid
 
 #app
-  margin-top 3rem
+  margin 5rem auto 0
   
 .container
   max-width 600px
@@ -33,38 +35,44 @@ a
 section
   margin-bottom 6rem
   .summary
-    // font-size 1.3rem
     &:last-child
       margin 0
-
-.header
-  // border-bottom 3px solid
-  // padding-bottom 2rem
   
 .section-head
-  font-size 1.6rem
+  font-size 2rem
   line-height 1
   font-weight 400
-  font-family "Montserrat"
+  font-family "Montserrat", Helvetica, Arial, sans-serif
   text-transform uppercase
   letter-spacing 0
 
-.sub-header
+.section-sub-head
   margin-bottom 1rem
-  position relative
-  &:before
-    position absolute
-    left -1.5rem
-    content '\2022'
-  span
+  .position
     font-style italic
     opacity 0.6
+  .dates
+    font-size 1.4rem
+    float right
 
 h1
   font-weight 300
   font-size 3.8rem
   font-family "Montserrat"
   margin-bottom 0.3rem
+  
+.highlights
+  font-size: 1.3rem
+  margin -1rem 0 4rem 3rem
+  list-style-position outside
+  &:last-child
+    margin-bottom 0
+
+.comma-list
+  span:after
+    content ','
+  span:last-child:after
+    content ''
 
 // Tables
 table
@@ -72,11 +80,11 @@ table
   &.small
     font-size 1.3rem
   td
-    border-bottom: 1px solid rgba(0,0,0, 0.3)
+    border-bottom: 1px solid #666
 
 .picture-wrap
   text-align center
-  margin 5rem auto 2rem
+  margin 5rem auto 0
   color #777
   font-style italic
   
