@@ -14,7 +14,8 @@ NodeJS 4.x
 Run `npm start`
 
 ##Configuration
-**Resume** - The `resume.json` file is loosely based on the schema from [jsonresume.org](http://jsonresume.org).
+**Resume** - The `resume.json` file is loosely based on the schema from [jsonresume.org](http://jsonresume.org).  
+
 **Layout** - Each section of the resume is built out in the `partials` directory. The `template.handlebars` file determines which partials are loaded as well as the order they are loaded into the view.
 
 ##Deployment With Surge.sh
