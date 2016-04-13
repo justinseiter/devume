@@ -1,6 +1,9 @@
+// Templating
 var template = require('./templates/textual/index.handlebars');
-var data = require('./resume.json');
 require('./templates/textual/index.styl');
+
+var data = require('./resume.json');
+
 
 document.addEventListener('DOMContentLoaded', function() {
   var div = document.createElement('div');
