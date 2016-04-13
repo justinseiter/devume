@@ -1,5 +1,5 @@
-@import "css/normalize.css"
-@import "css/skeleton.css"
+@import "../../styles/normalize.css"
+@import "../../styles/skeleton"
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic");
 
@@ -23,14 +23,23 @@ body
 
 a
   color #555
-  text-decoration none
-  border-bottom 1px solid
 
 #app
   margin 5rem auto 0
   
-.container
+.wrapper
+  @extends .container
   max-width 600px
+  
+.info-name:after,
+.info-meta:after,
+.education:after,
+.picture:after,
+.professional:after,
+.projects:after,
+.skills:after,
+.summary:after
+  @extends .row:after
 
 section
   margin-bottom 6rem
@@ -65,10 +74,12 @@ h1
   font-size: 1.3rem
   margin -1rem 0 4rem 3rem
   list-style-position outside
+  li:last-child,
   &:last-child
     margin-bottom 0
 
 .comma-list
+  text-align right
   span:after
     content ','
   span:last-child:after
@@ -76,20 +87,34 @@ h1
 
 // Tables
 table
+  @extends .u-full-width
   margin -15px 0 0 0
   &.small
     font-size 1.3rem
   td
     border-bottom: 1px solid #666
 
+.info-meta
+  .location
+    @extends .columns
+    @extends .columns:first-child
+    @extends .eight.columns
+    .email
+      display block
+  .social
+    @extends .columns
+    @extends .four.columns
+    text-align right
+    a
+      display block
+
 .picture-wrap
   text-align center
-  margin 5rem auto 0
   color #777
   font-style italic
   
-.picture
-  max-width 140px
+.picture-image
+  max-width 160px
   border-radius 100%
   margin auto
   display block

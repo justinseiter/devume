@@ -1,6 +1,6 @@
-var template = require('./template.handlebars');
+var template = require('./templates/textual/index.handlebars');
 var data = require('./resume.json');
-require('./index.styl');
+require('./templates/textual/index.styl');
 
 document.addEventListener('DOMContentLoaded', function() {
   var div = document.createElement('div');

@@ -1,0 +1,16 @@
+ <section class="info-wrap">
+  <div class="info-name">
+    <h1>{{basics.name}}</h1>
+  </div>
+  <div class="info-meta">
+    <div class="location">
+      <span class="email">{{basics.email}}</span>
+      {{basics.location.city}}, {{basics.location.region}}
+    </div>
+    <div class="social">
+      {{#each basics.profiles}}
+        <a title="{{this.network}}" target="_blank" href="{{this.url}}">{{this.network}}</a>
+      {{/each}}
+    </div>
+  </div>
+</section>
