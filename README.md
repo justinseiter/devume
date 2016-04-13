@@ -2,7 +2,9 @@
 
 > Devume is the hackable JSON resume. Fork it, tweak it, deploy it!
 
-Devume ships with [Webpack](https://webpack.github.io/) for code bundling, [Handlebars](http://handlebarsjs.com/) for templating, and a JSON file you can update with your own resume data. Together they provide a very lightweight system for quickly creating a resume you can *host at your own domain.*
+Devume ships with [Webpack](https://webpack.github.io/) for code bundling, [Handlebars](http://handlebarsjs.com/) for templating, and a JSON file you can update with your own resume data. Together they provide a very lightweight system for quickly creating a resume you can host at your own domain.
+
+[See Example Devume](http://resume.justinseiter.com/)
 
 ##Dependencies
 NodeJS 4.x
@@ -14,7 +16,7 @@ NodeJS 4.x
  4. Run `npm install`
  5. Rename `resume-example.json` to `resume.json`
  6. Run `npm start`
- 7. Visit http://localhost:8080/webpack-dev-server/
+ 7. Visit [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
 
 ##Local Development
 Run `npm start`, make changes, save, and Webpack will hot-reload. :)
@@ -38,6 +40,8 @@ If you'd like to deploy to a specific domain add a file called `CNAME` to the `d
 ##Issues
 If you have any issues whatsoever please submit them here: [https://github.com/justinseiter/devume/issues](https://github.com/justinseiter/devume/issues)
 
+
 ----------
+
 
 > Written with [StackEdit](https://stackedit.io/).
