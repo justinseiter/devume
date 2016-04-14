@@ -6,7 +6,7 @@ var template = require('./templates/' + config.theme + '/index.handlebars');
 require('./templates/' + config.theme + '/index.styl');
 
 // Resume
-var data = require('./resume-example.json');
+var data = require('./resume.json');
 
 // Load the app :)
 document.addEventListener('DOMContentLoaded', function() {

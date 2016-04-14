@@ -1,5 +1,8 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+// Load app config
 var config = require('./app/config.json');
+
+// Register new plugin
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   title: config.title
 })
