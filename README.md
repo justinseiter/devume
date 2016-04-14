@@ -10,14 +10,11 @@ Devume ships with [Webpack](https://webpack.github.io/) for code bundling, [Hand
 NodeJS 4.x
 
 ##Installation & Getting Started
- 1. Fork this repo.
- 2. Clone your copy of the repo: `git clone ...`
- 3. CD into the project folder: `cd devume`
- 4. Run `npm install`
- 5. Rename `resume-example.json` to `resume.json`
- 6. Rename `config-example.json` to `config.json`
- 6. Run `npm start`
- 7. Visit [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
+Once you've cloned down your forked copy `cd` into the project folder and follow these steps:
+
+ 1. Run `npm install`
+ 2. Rename `resume-example.json` to `resume.json` and rename `config-example.json` to `config.json`
+ 3. Run `npm start`
 
 ##Local Development
 Run `npm start`, make changes, save, and Webpack will hot-reload. :)
