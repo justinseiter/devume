@@ -11,7 +11,7 @@ bg-yellow    = #fdf6db
 bg-orange    = #fdf2df
 bg-pink      = #fef1f6
 bg-white     = #fff
-bg-off-white = #f8f8f8
+bg-off-white = #f3f7fa
 
 bg = bg-off-white
 
@@ -25,10 +25,11 @@ a
   color #555
 
 #app
-  margin 5rem auto 0
+  margin 5rem auto
   
 .wrapper
   @extends .container
+  @extends .container:after
 
 .sidebar
   @extends .columns
@@ -88,20 +89,33 @@ section
   span:last-child:after
     content ''
 
+.highlights
+  font-size: 1.3rem
+  margin -1rem 0 4rem 3rem
+  list-style-position outside
+  li:last-child,
+  &:last-child
+    margin-bottom 0
+
 .info-wrap
   border-top none
   border-top-right-radius 0
   border-top-left-radius 0
+  padding-top 2rem
   h1
-    font-size 2.5rem
+    font-size 2.6rem
     font-weight 300
+    letter-spacing 0.03rem
   .region
     display block
     border-bottom 1px solid #ddd
     padding-bottom 2rem
     margin-bottom 2rem
   .social a
-    display block
+    display inline-block
+    margin-right 1rem
 
 table
   @extends .u-full-width
+  td
+    border-bottom 1px dashed #ddd

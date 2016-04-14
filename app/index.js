@@ -1,6 +1,6 @@
 // Templating
-var template = require('./templates/textual/index.handlebars');
-require('./templates/textual/index.styl');
+var template = require('./templates/boxed/index.handlebars');
+require('./templates/boxed/index.styl');
 
 var data = require('./resume.json');
 

@@ -1,7 +1,6 @@
 @import "../../styles/normalize.css"
 @import "../../styles/skeleton"
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic");
 
 // Variables
 bg-purple    = #f5eff8
@@ -11,24 +10,28 @@ bg-yellow    = #fdf6db
 bg-orange    = #fdf2df
 bg-pink      = #fef1f6
 bg-white     = #fff
-bg-off-white = #f8f8f8
+bg-off-white = #f3f7fa
 
-bg = bg-blue
+bg = bg-off-white
+body-font = "Lora", Helvetica, Arial, sans-serif
+header-font = "Lora", Helvetica, Arial, sans-serif
+text-color = #6d7779
 
 body
   background bg
-  color #555
+  color text-color
   font-weight 400
-  font-family "Open Sans", Helvetica, Arial, sans-serif
+  font-family body-font
 
 a
-  color #555
+  color text-color
 
 #app
   margin 5rem auto 0
   
 .wrapper
   @extends .container
+  @extends .container:after
   max-width 600px
   
 .info-name:after,
@@ -50,10 +53,13 @@ section
 .section-head
   font-size 2rem
   line-height 1
-  font-weight 400
-  font-family "Montserrat", Helvetica, Arial, sans-serif
-  text-transform uppercase
+  font-weight 700
+  font-family header-font
+  // text-transform uppercase
   letter-spacing 0
+  border-bottom 1px solid
+  padding-bottom 1rem
+  color text-color
 
 .section-sub-head
   margin-bottom 1rem
@@ -65,10 +71,11 @@ section
     float right
 
 h1
-  font-weight 300
+  font-weight 700
   font-size 3.8rem
-  font-family "Montserrat"
+  font-family body-font
   margin-bottom 0.3rem
+  border-bottom 1px solid
   
 .highlights
   font-size: 1.3rem
@@ -92,14 +99,14 @@ table
   &.small
     font-size 1.3rem
   td
-    border-bottom: 1px solid #666
+    border-bottom: 1px solid rgba(0,0,0,0.08)
 
 .info-meta
   .location
     @extends .columns
     @extends .columns:first-child
     @extends .eight.columns
-    .email
+    .contact
       display block
   .social
     @extends .columns
@@ -110,7 +117,7 @@ table
 
 .picture-wrap
   text-align center
-  color #777
+  color #999
   font-style italic
   
 .image-wrap img
@@ -119,6 +126,7 @@ table
   margin auto
   display block
   border 1px solid #999
+  opacity 0.85
 
 // Helpers
 .u-text-right
