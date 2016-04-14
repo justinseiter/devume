@@ -1,6 +1,7 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var config = require('./app/config.json');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  title: 'Resume'
+  title: config.title
 })
 
 module.exports = {
