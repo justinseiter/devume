@@ -25,6 +25,7 @@
     "style-loader": "^0.13.1",
     "stylus": "^0.54.2",
     "stylus-loader": "^2.0.0",
+    "surge": "^0.17.7",
     "webpack": "^1.12.15",
     "webpack-dev-server": "^1.14.1"
   }
