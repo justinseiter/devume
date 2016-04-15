@@ -5,11 +5,11 @@
       <tbody>
         {{#each education}}
         <tr>
-          <td>{{this.institution}}</td>
-          <td>{{this.studyType}} {{this.area}}</td>
-          <td class="u-text-right">
-            {{#if this.startDate}}{{this.startDate}}-{{/if}}{{this.endDate}}
+          <td>
+            <span class="education-dates">{{#if this.startDate}}{{this.startDate}}-{{/if}}{{this.endDate}}</span>
+            {{this.institution}}
           </td>
+          <td>{{this.studyType}} {{this.area}}</td>
         </tr>
         {{/each}}
       </tbody>

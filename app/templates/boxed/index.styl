@@ -85,7 +85,12 @@ section
   @media (min-width 550px)
     float right
     position relative
-    top 2px
+    top 3px
+
+.education-dates
+  font-size 1.1rem
+  display block
+  color #aaa
 
 .comma-list
   text-align right
@@ -123,5 +128,13 @@ section
 
 table
   @extends .u-full-width
+  tr:last-child td
+    border-bottom none
+    padding-bottom 0
   td
     border-bottom 1px dashed #ddd
+
+.education table td
+  vertical-align top
+  @media (min-width 550px)
+    vertical-align bottom
