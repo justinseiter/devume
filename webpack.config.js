@@ -4,7 +4,9 @@ var config = require('./app/config.json');
 // Register new plugin
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  title: config.title
+  title: config.title,
+  template: './app/index.html',
+  inject: 'body'
 })
 
 module.exports = {

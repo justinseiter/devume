@@ -2,9 +2,9 @@
   <div class="professional">
     <h2 class="section-head">Professional Experience</h2>
       {{#each work}}
+        <span class="professional-dates">{{this.startDate}}-{{this.endDate}}</span>
         <h6 class="section-sub-head">
-          <strong>{{this.company}}</strong>, <span class="position">{{this.position}}</span>
-          <span class="dates">{{this.startDate}}-{{this.endDate}}</span>
+          <strong>{{this.company}}</strong>, <span class="position">{{this.position}}</span>  
         </h6>
         <p class="summary">{{this.summary}}</p>
         {{#if this.highlights}}

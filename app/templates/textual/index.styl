@@ -66,9 +66,15 @@ section
   .position
     font-style italic
     opacity 0.6
-  .dates
-    font-size 1.4rem
+
+.professional-dates
+  font-size 1.1rem
+  display block
+  color #aaa
+  @media (min-width 550px)
     float right
+    position relative
+    top 2px
 
 h1
   font-weight 700
@@ -111,9 +117,10 @@ table
   .social
     @extends .columns
     @extends .four.columns
-    text-align right
-    a
-      display block
+    @media (min-width 550px)
+      text-align right
+      a
+        display block
 
 .picture-wrap
   text-align center
