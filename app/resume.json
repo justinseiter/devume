@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Dylan Swoope",
+    "label": "Software Engineer",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgCAAAAJDYwOTZlYTY2LTdjYmMtNDk0NS05YjczLTAxYzdkMzEyNmI3Mg.jpg",
+    "email": "swoopedj@gmail.com",
+    "phone": "(817) 229-1691",
+    "website": "http://www.dylanswoope.com/",
+    "summary": "I am an experienced sawyer, practiced Kung Fu for several years, and regularly cut my own hair.",
+    "location": {
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "TX"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/richardhendricks"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/richardhendricks"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "US Geological Survey",
+      "position": "Hydrologic Technician",
+      "website": "http://tx.usgs.gov/",
+      "startDate": "2012",
+      "endDate": "2015",
+      "summary": "",
+      "highlights": [
+        "Collected surface water data and prepared relevant reports using established USGS methods",
+        "Processed records in USGS database to ensure ongoing accuracy of data displayed on public websites",
+        "Resolved gaps in historical records by interpolating data based on hydrologic trends",
+        "Provided assistance to partner organizations and river authorities with fieldwork & data management"
+      ]
+    },
+    {
+      "company": "US Forest Service",
+      "position": "Wildland Firefighter",
+      "website": "http://www.fs.usda.gov/bdnf/",
+      "startDate": "",
+      "endDate": "2011",
+      "summary": "",
+      "highlights": [
+        "Deployed as member of regionally organized teams on 14-day fire assignments in remote locations",
+        "Maintained proficiency in fire engine operation, fire suppression tactics, and wilderness first aid skills"
+      ]
+    },
+    {
+      "company": "Austin Habitat for Humanity",
+      "position": "Site Supervisor",
+      "website": "http://www.austinhabitat.org/",
+      "startDate": "2007",
+      "endDate": "2010",
+      "summary": "",
+      "highlights": [
+        "Supervised and instructed crew of up to 10 and groups of volunteers of up to 30",
+        "Reviewed and revised scope of work for potential contracts and created timeline for project work",
+        "Oversaw project completion, ensured specific client standards and specifications were met, simultaneously maintained safety of the crew"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Texans.vote",
+      "url": "http://Texans.vote",
+      "summary": "Social voter outreach platform"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Makersquare",
+      "area": "Advanced Software Engineering Immersive",
+      "studyType": "",
+      "startDate": "Jan",
+      "endDate": "April 2016"
+    },
+    {
+      "institution": "Southwestern University",
+      "area": "Political Science",
+      "studyType": "BA",
+      "startDate": "2003",
+      "endDate": "2007"
+    }
+  ],
+  "skills": [
+    {
+      "level": "Strong",
+      "keywords": [
+        "JavaScript",
+        "jQuery",
+        "AngularJS",
+        "NodeJS",
+        "Express",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "level": "Experienced",
+      "keywords": [
+        "Python",
+        "Java",
+        "SQL",
+        "AJAX",
+        "Bootstrap",
+        "Backbone.js",
+        "Mocha",
+        "Chai"
+      ]
+    }
+  ]
+}
