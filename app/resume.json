@@ -15,11 +15,11 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "url": "https://linkedin.com/in/richardhendricks"
+        "url": "https://linkedin.com/in/swoopedj"
       },
       {
         "network": "Github",
-        "url": "https://github.com/richardhendricks"
+        "url": "https://github.com/swoopedj"
       }
     ]
   },
@@ -68,7 +68,14 @@
     {
       "name": "Texans.vote",
       "url": "http://Texans.vote",
-      "summary": "Social voter outreach platform"
+      "summary": "A social media contest platform aimed at encouraging civic engagement and increasing voter turnout.",
+      "tech": "React, Redux, Node.js, PostgreSQL, Mocha/Chai"
+    },
+    {
+      "name": "Health Inspector",
+      "url": "http://inspector.dylanswoope.io",
+      "summary": "A web app that retrieves restaurant health inspection scores from the City of Austin data portal",
+      "tech": "AngularJS, Node.js, PostgreSQL, Mocha/Chai"
     }
   ],
   "education": [
@@ -94,7 +101,7 @@
         "JavaScript",
         "jQuery",
         "AngularJS",
-        "NodeJS",
+        "Node.js",
         "Express",
         "HTML",
         "CSS"
@@ -109,8 +116,8 @@
         "AJAX",
         "Bootstrap",
         "Backbone.js",
-        "Mocha",
-        "Chai"
+        "Django",
+        "Mocha"
       ]
     }
   ]
