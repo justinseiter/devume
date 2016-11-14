@@ -1,0 +1,79 @@
+//DevUme
+
+{
+  "basics": {
+    "name": "Zach Parris",
+    "label": "Software Developer",
+    "picture": "https://avatars1.githubusercontent.com/u/16567459?v=3&u=d6785ff4a7c076eb9e6e44017163c5486fd72a85&s=140",
+    "email": "zachjparris@gmail.com",
+    "phone": "832.286.8307",
+    "website": "http://zachparris.com",
+    "summary": "Fourth generation jeweler turned software developer, die hard student of Nashville Software School.",
+    "location": {
+      "city": "Nashville",
+      "countryCode": "US",
+      "region": "TN"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zachjparris"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/ZachParris"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Nashville Software School",
+      "position": "Apprentice Software Developer",
+      "website": "http://nashvillesoftwareschool.com/",
+      "startDate": "2016",
+      "endDate": "2017",
+      "summary": "Intensive twelve month software development bootcamp C#/.Net development fundamentals and problem solving.",
+      "highlights": [
+        "Daily hands on application of OOP fundamentals through group and individual projects. ",
+        "A full year of experience using Git, Bower, and NPM",
+        "Focused on industry best practices."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CorkBoard",
+      "url": "https://github.com/ZachParris",
+      "summary": "An ASP.NET MVC (C#) app designed to help user keep track and share favorite wines"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Nashville Software School",
+      "area": "Software development",
+      "studyType": "NA",
+      "startDate": "2016",
+      "endDate": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "level": "Strong",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        "ASP.NET"
+      ]
+    },
+    {
+      "level": "Experienced",
+      "keywords": [
+        "AngularJS",
+        "JQuery",
+        "SQL/SQLite"
+      ]
+    }
+  ]
+}
