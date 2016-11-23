@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Zach Parris",
-    "label": "Software Developer",
+    "label": "Apprentice Software Developer",
     "picture": "https://avatars1.githubusercontent.com/u/16567459?v=3&u=d6785ff4a7c076eb9e6e44017163c5486fd72a85&s=140",
     "email": "zachjparris@gmail.com",
     "phone": "832.286.8307",
@@ -47,7 +47,7 @@
     {
       "name": "PitStop",
       "url": "https://github.com/ZachParris",
-      "summary": "A jewelry repair intake form, utilizing AngularJS w/ Materialize and Firebase"
+      "summary": "A jewelry repair intake app with abilities for the user to add customers and take in new jobs with a checklist that ensures a speedy and consistent customer experience, utilizing AngularJS w/ Materialize and Firebase"
     }
   ],
   "education": [
