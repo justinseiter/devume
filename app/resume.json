@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Zach Parris",
+    "label": "Apprentice Software Developer",
+    "picture": "https://avatars1.githubusercontent.com/u/16567459?v=3&u=d6785ff4a7c076eb9e6e44017163c5486fd72a85&s=140",
+    "email": "zachjparris@gmail.com",
+    "phone": "832.286.8307",
+    "website": "http://zachparris.com",
+    "summary": "Fourth generation jeweler turned junior developer, diehard student of Nashville Software School.  I am fascinated by the world of software development and everything it has to offer! I’m extremely open-minded and curious. I love building/fixing things and solving problems with simple and efficient solutions. Building and fixing things is what I do best. After almost a decade of working on jewelry, I found myself disinterested and looking for a new endeavor. That’s when I sought out Nashville Software School. With no prior experience, to say I was overwhelmed would be an understatement, but the more immersed I became the more I realized coding was my calling. Through this course I have found my passion in software development, and have completely submerged myself in it. I'm thoroughly enjoying meeting people in the Nashville tech community and look forward to continuing my journey and improving my skills as a developer. Please don't hesitate to reach out! Always happy to meet for a coffee/beer/lunch and some shop-talk.",
+    "location": {
+      "city": "Nashville",
+      "countryCode": "US",
+      "region": "TN"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zachjparris"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/ZachParris"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Nashville Software School",
+      "position": "Apprentice Software Developer",
+      "website": "http://nashvillesoftwareschool.com/",
+      "startDate": "2016",
+      "endDate": "2017",
+      "summary": "Intensive twelve month software development bootcamp. Daily hands on application of OOP fundamentals through group and individual projects. Source code/version control through the use of GitHub",
+      "highlights": [
+        "C#/.Net development fundamentals and problem solving. ",
+        "A full year of experience using Git, Bower, and NPM",
+        "Focused on industry best practices."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MyPod",
+      "url": "https://github.com/ZachParris/MyPod-Podcast-App",
+      "summary": "An ASP.NET MVC (C#) Podcast Player - mobile app designed to help user find and share favorite podcasts - Currently in production"
+    },
+    {
+      "name": "PitStop",
+      "url": "https://github.com/ZachParris/pitstop",
+      "summary": "A jewelry repair intake app with abilities for the user to add customers and take in new jobs with a checklist that ensures a speedy and consistent customer experience, utilizing AngularJS w/ Materialize and Firebase"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Nashville Software School",
+      "area": "Software Developer",
+      "studyType": "Apprentice",
+      "startDate": "2016",
+      "endDate": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "level": "Languages",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        "SQL"
+      ]
+    },
+    {
+      "level": "Frameworks/Libraries",
+      "keywords": [
+        "AngularJS",
+        "JQuery",
+        "ASP.NET MVC"
+      ]
+    }
+  ]
+}
