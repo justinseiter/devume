@@ -6,7 +6,7 @@
     "email": "zachjparris@gmail.com",
     "phone": "832.286.8307",
     "website": "http://zachparris.com",
-    "summary": "Fourth generation jeweler turned software developer, diehard student of Nashville Software School. Always looking for a challenge, with a passion for learning, I’m extremely open-minded and curious. I love building/fixing things and solving problems with simple and efficient solutions. Raised in Texas, I’m a fourth generation jeweler by trade. Building and fixing things is what I do best. After almost a decade of working on jewelry, I found myself disinterested and looking for a new endeavor. That’s when I sought out Nashville Software School. With no prior experience, to say I was overwhelmed would be an understatement, but the more immersed I became the more I realized coding was my calling. Through this course I have found my passion in software development, and have completely submerged myself in it. I'm thoroughly enjoying meeting people in the Nashville tech community and look forward to continuing my journey and improving my skills as a developer. Please don't hesitate to reach out! Always happy to meet for a coffee and some shop talk.",
+    "summary": "Fourth generation jeweler turned junior developer, diehard student of Nashville Software School.  I am fascinated by the world of software development and everything it has to offer! I’m extremely open-minded and curious. I love building/fixing things and solving problems with simple and efficient solutions. Building and fixing things is what I do best. After almost a decade of working on jewelry, I found myself disinterested and looking for a new endeavor. That’s when I sought out Nashville Software School. With no prior experience, to say I was overwhelmed would be an understatement, but the more immersed I became the more I realized coding was my calling. Through this course I have found my passion in software development, and have completely submerged myself in it. I'm thoroughly enjoying meeting people in the Nashville tech community and look forward to continuing my journey and improving my skills as a developer. Please don't hesitate to reach out! Always happy to meet for a coffee/beer/lunch and some shop-talk.",
     "location": {
       "city": "Nashville",
       "countryCode": "US",
@@ -40,9 +40,9 @@
   ],
   "projects": [
     {
-      "name": "PostKast",
-      "url": "https://github.com/ZachParris",
-      "summary": "An ASP.NET MVC (C#) app designed to help user keep track and share favorite podcasts - Currently in production"
+      "name": "MyPod",
+      "url": "https://github.com/ZachParris/MyPod-Podcast-App",
+      "summary": "An ASP.NET MVC (C#) Podcast Player - mobile app designed to help user find and share favorite podcasts - Currently in production"
     },
     {
       "name": "PitStop",
